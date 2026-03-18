@@ -2,6 +2,16 @@
 
 Central governance, standards, and orchestration repository for all projects in this polyrepo ecosystem.
 
+
+## Brainstorm
+
+- Einführen von AutoCommits mit Hilfe von Co-Pilot? Oder als Change Log? So könnten alle Updates auch sinnvoll zusammengefasst werden. 
+- Vergleich von mehreren Agents bei komplexen oder schwer qualitativ zu bewertenden Aufgaben.
+- Automatisierte Überprüfung von ADRs auf Einhaltung der Standards (z.B. ob die vorgeschlagenen Lösungen tatsächlich den Zieltechnologien entsprechen).
+- Diskussion über die Verwendung von Makefiles bei Servern zum Cleanen. 
+- Kurzbeschreibung und Analyse der für diese Repositories besonderen Entwicklungsmethodik. (bedeutet Lean Instructions, Architecture.md und Implementation-Plan.md)
+- Automatische Test-Generierung als Teil vom Instructions-file? 
+
 ## Purpose
 
 Meta-Repo serves as the overarching control layer that manages standards, architecture decisions, documentation structure, technology targets, data model governance, infrastructure documentation, and future agent-based automation across all sub-repositories.
@@ -66,11 +76,12 @@ meta-repo/
 
 ## Getting Started
 
-1. Review the [standards](standards/) to understand central conventions.
-2. Browse the [catalog](catalog/) for an overview of all managed repositories.
-3. Read the [architecture decisions](architecture/) for key technical choices.
-4. Check [data-models](data-models/) for shared entity definitions.
-5. See [infrastructure](infrastructure/) for the current system landscape.
+1. **Start here →** [OVERVIEW.md](OVERVIEW.md) — technology overview of all active repositories.
+2. Review the [standards](standards/) to understand central conventions.
+3. Browse the [catalog](catalog/) for an overview of all managed repositories.
+4. Read the [architecture decisions](architecture/) for key technical choices.
+5. Check [data-models](data-models/) for shared entity definitions.
+6. See [infrastructure](infrastructure/) for the current system landscape.
 
 ## Status
 

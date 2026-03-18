@@ -8,9 +8,9 @@
 | **Purpose**            | Persistent job application hub with AI support — personality analysis, targets, CV management |
 | **Status**             | active                                 |
 | **Priority**           | medium                                 |
-| **Tech Stack**         | Markdown, Python (Copilot-assisted)    |
-| **Architecture Type**  | static                                 |
-| **Database**           | None                                   |
+| **Tech Stack**         | Markdown, YAML, LaTeX, FastAPI (Python), React (TypeScript), Tailwind CSS |
+| **Architecture Type**  | static + dashboard                     |
+| **Database**           | None (reads YAML/Markdown at runtime)  |
 | **Auth Model**         | None                                   |
 | **Documentation Status** | complete                             |
 | **Monitoring Relevant** | no                                    |
@@ -43,4 +43,5 @@
 - **GitHub:** https://github.com/ducktalez/job-application-hub (private)
 - **Deployed:** _not applicable_
 - **Architecture.md:** _not applicable_
+
 
