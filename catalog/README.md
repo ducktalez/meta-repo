@@ -41,7 +41,16 @@ _Update this list as repositories are added._
 
 | Repository | Status | Priority | Stack |
 |-----------|--------|----------|-------|
-| [Example Repo](_example-repo.md) | planned | medium | React, FastAPI |
+| [abasicsite](abasicsite.md) | maintenance | low | Python, FastAPI |
+| [dialectree](dialectree.md) | active | high | React, FastAPI, PostgreSQL |
+| [hometools](hometools.md) | active | high | Python, FastAPI, PWA |
+| [job-application-hub](job-application-hub.md) | active | medium | Markdown, Python |
+| [pictasia](pictasia.md) | maintenance | low | FastAPI, PostgreSQL, Pillow |
+| [plagih](plagih.md) | active | high | Python, NumPy, SymPy |
+| [retailer-ml-prediction](retailer-ml-prediction.md) | archived | low | Python, TensorFlow, scikit-learn |
+| [your-match-backend](your-match-backend.md) | maintenance | medium | FastAPI, SQLAlchemy, PostgreSQL |
+| [_Example Repo (template)](_example-repo.md) | — | — | — |
 
 <!-- Add new entries above this line -->
+
 
