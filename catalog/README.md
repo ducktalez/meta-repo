@@ -47,6 +47,7 @@ _Update this list as repositories are added._
 | [job-application-hub](job-application-hub.md) | active | medium | Markdown, Python |
 | [pictasia](pictasia.md) | maintenance | low | FastAPI, PostgreSQL, Pillow |
 | [plagih](plagih.md) | active | high | Python, NumPy, SymPy |
+| [playbox](playbox.md) | planned | medium | FastAPI, React/TS, PWA |
 | [retailer-ml-prediction](retailer-ml-prediction.md) | archived | low | Python, TensorFlow, scikit-learn |
 | [your-match-backend](your-match-backend.md) | maintenance | medium | FastAPI, SQLAlchemy, PostgreSQL |
 | [_Example Repo (template)](_example-repo.md) | — | — | — |
