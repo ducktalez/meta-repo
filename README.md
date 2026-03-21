@@ -5,13 +5,16 @@ Central governance, standards, and orchestration repository for all projects in 
 
 ## Brainstorm
 
+
+
+
 - Einführen von AutoCommits mit Hilfe von Co-Pilot? Oder als Change Log? So könnten alle Updates auch sinnvoll zusammengefasst werden. 
 - Vergleich von mehreren Agents bei komplexen oder schwer qualitativ zu bewertenden Aufgaben.
 - Automatisierte Überprüfung von ADRs auf Einhaltung der Standards (z.B. ob die vorgeschlagenen Lösungen tatsächlich den Zieltechnologien entsprechen).
 - Diskussion über die Verwendung von Makefiles bei Servern zum Cleanen. 
 - Kurzbeschreibung und Analyse der für diese Repositories besonderen Entwicklungsmethodik. (bedeutet Lean Instructions, Architecture.md und Implementation-Plan.md)
 - Automatische Test-Generierung als Teil vom Instructions-file?
-- GroupGame-App!
+- ~~GroupGame-App!~~ → concretized as **playbox** repo (see [catalog/playbox.md](catalog/playbox.md)): Imposter, Piccolo, "Wer wird Elite-Hater?" Quiz, Chess Variants
 - Abstammungsbaum Für die eigene Familie erzeugen und dann mit anderen merken wenn sie sie hochladen. 
 - In großen Abständen soll im Implementation Plan ein Chores/aufräumen/Optimierungsschritt eingefügt werden.
 - Gedanken sortieren-Repo + Video-Skripte-daraus-generieren-Repo + automatisch-Videos-rendern (Videos sind bloß eingeblendete Quellen)?
@@ -38,7 +41,7 @@ Central governance, standards, and orchestration repository for all projects in 
   - Ein allgemeines Instruction-File erhält Informationen zu den einzelnen Akteuren
   - In einem spezifischen Ordner/Fall werden aus potenziellen Rätseln etc. eine Story erzeugt. 
   - Die Story wird als dynamisches Audio-Produkt gerendert. Hierfür muss natürlich auch noch eine audio library erstellt werden, mit sound effekten etc..
-- Automatisches Erstellen von Büchertexten auf Basis von wilden Kommentaren. 
+- Automatisches Erstellen von Büchertexten auf Basis von wilden Kommentaren. Diese müssten noch initial geordnet werden und könnten dann auf einer Meta-Ebene ausformuliert werden, woraus wiederum ein Buch generiert werden kann oder ein Videoskript etc. 
 
 ## Purpose
 
