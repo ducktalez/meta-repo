@@ -3,45 +3,6 @@
 Central governance, standards, and orchestration repository for all projects in this polyrepo ecosystem.
 
 
-## Brainstorm
-
-
-
-
-- Einführen von AutoCommits mit Hilfe von Co-Pilot? Oder als Change Log? So könnten alle Updates auch sinnvoll zusammengefasst werden. 
-- Vergleich von mehreren Agents bei komplexen oder schwer qualitativ zu bewertenden Aufgaben.
-- Automatisierte Überprüfung von ADRs auf Einhaltung der Standards (z.B. ob die vorgeschlagenen Lösungen tatsächlich den Zieltechnologien entsprechen).
-- Diskussion über die Verwendung von Makefiles bei Servern zum Cleanen. 
-- Kurzbeschreibung und Analyse der für diese Repositories besonderen Entwicklungsmethodik. (bedeutet Lean Instructions, Architecture.md und Implementation-Plan.md)
-- Automatische Test-Generierung als Teil vom Instructions-file?
-- ~~GroupGame-App!~~ → concretized as **playbox** repo (see [catalog/playbox.md](catalog/playbox.md)): Imposter, Piccolo, "Wer wird Elite-Hater?" Quiz, Chess Variants
-- Abstammungsbaum Für die eigene Familie erzeugen und dann mit anderen merken wenn sie sie hochladen. 
-- In großen Abständen soll im Implementation Plan ein Chores/aufräumen/Optimierungsschritt eingefügt werden.
-- Gedanken sortieren-Repo + Video-Skripte-daraus-generieren-Repo + automatisch-Videos-rendern (Videos sind bloß eingeblendete Quellen)?
-- Media view website similar to YouTube showing a lot of videos at the same time 
-- Lokales LLM zum Laufen bringen und Architektur verstehen.
-- Die Instructions in Kombination mit den Kommentaren in den Files sollen einen guten Leitfaden für die Intention der Implementierung mitgeben. In regelmäßigen Abständen sollte bei allen Repositories überprüft werden ob das gut umgesetzt ist. 
-- Allgemeine Anweisungen für Benutzeroberflächen. 
-  - In NutzerOberflächen sollten sich wiederholende/triviale Informationen nicht dem Nutzer angezeigt werden. Beim drüber hovern sollte vielleicht eine Beschreibung erscheinen. 
-  - Der Fokus Sollte  auf eine gute Übersichtlichkeit gelegt werden.
-  - Kann das als verständliche Instruction für alle Repos formuliert werden?
-  - Projektidee: automatisches Aufstellen eines Haushaltsplans mit KI-Unterstützung. 
-    - Upload der Kontoauszüge und daraus wird dann eine Analyse der Ausgaben erstellt. 
-    - Einigbarer Potenzial wird erkannt.
-- Sollten eventuell die Co-Pilot Chats über die Repositories gespeichert und analysiert werden? Zumindest in großen Abständen oder so?
-- Für den TV-Sender-Repo: Automatisches Erstellen von YouTube-Kacke zusammen geschnitten von Politikern. 
-  - Hierfür muss ein Archiv mit transkribierten Clips erstellt werden und dann ein Skript-Erstellungsmechanismus generiert werden.
-  - Als Basis für Witze könnten folgende Ideen dienen: 
-    - Generelle aktuelle Geschehnisse 
-    - Dinge in der Agenda oder im Duktus der Person, die als Juktu-Kacke Basis herhalten muss?
-    - Running Gags und andere Jokes oder lustige Themen, die immer gehen. Heißt ja nicht umsonst YouTube-Kacke? 
-- Ueberrepo, herrenrepo
-- Mett Render Maschine Drachenlord als TV Sender. Ich will das gesamte Leben des Hachenlord als Zeitstrahl, inklusive aller Videos die verfügbar sind, und jedem Content runtergeladen haben und daraus einen Fernsehsender machen, der immer wieder schöne Geschichten und Zeitstränge daraus macht. 
-- Auto-Generierung von AI-generated, die drei Fragezeichen folgen anhand von Projektdaten. 
-  - Ein allgemeines Instruction-File erhält Informationen zu den einzelnen Akteuren
-  - In einem spezifischen Ordner/Fall werden aus potenziellen Rätseln etc. eine Story erzeugt. 
-  - Die Story wird als dynamisches Audio-Produkt gerendert. Hierfür muss natürlich auch noch eine audio library erstellt werden, mit sound effekten etc..
-- Automatisches Erstellen von Büchertexten auf Basis von wilden Kommentaren. Diese müssten noch initial geordnet werden und könnten dann auf einer Meta-Ebene ausformuliert werden, woraus wiederum ein Buch generiert werden kann oder ein Videoskript etc. 
 
 ## Purpose
 
@@ -102,6 +63,7 @@ meta-repo/
 │   └── README.md                  # Placeholder: scope & planned features
 ├── automation/
 │   └── README.md                  # Placeholder: scope & planned features
+├── ideas.md                       # Raw brainstorm dump
 └── README.md                      # This file
 ```
 
@@ -113,6 +75,7 @@ meta-repo/
 4. Read the [architecture decisions](architecture/) for key technical choices.
 5. Check [data-models](data-models/) for shared entity definitions.
 6. See [infrastructure](infrastructure/) for the current system landscape.
+7. See [ideas.md](ideas.md) for the raw brainstorm / idea backlog.
 
 ## Status
 
