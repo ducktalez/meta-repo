@@ -63,6 +63,8 @@ meta-repo/
 │   └── README.md                  # Placeholder: scope & planned features
 ├── automation/
 │   └── README.md                  # Placeholder: scope & planned features
+├── docs/
+│   └── implementation-plan.md     # Implementation plan for meta-repo itself
 ├── ideas.md                       # Raw brainstorm dump
 └── README.md                      # This file
 ```
@@ -76,6 +78,7 @@ meta-repo/
 5. Check [data-models](data-models/) for shared entity definitions.
 6. See [infrastructure](infrastructure/) for the current system landscape.
 7. See [ideas.md](ideas.md) for the raw brainstorm / idea backlog.
+8. See [docs/implementation-plan.md](docs/implementation-plan.md) for the meta-repo roadmap.
 
 ## Status
 

@@ -1,6 +1,6 @@
 # Ideas
 
-- https://github.com/ducktalez/pictasia hinzufügen. Ist ein Gruppen-repo, das nicht der hier vorgegebenen Architektur entspricht (und nicht entsprechen muss)
+- https://github.com/ducktalez/pictasia hinzufügen. Ist ein repo zur Entwicklung mit Freunden, das nicht der hier vorgegebenen Architektur entspricht (und nicht entsprechen muss). Es soll nur aufgeführt werden.
 - Wenn im implementation-plan ein Abschnitt fertig ist und alle Tests erfolgreich durchlaufen sind, soll auch ein git commit + push erfolgen.
 - Instructions: `__init__.py` mit instructions befüllen?
 - meta-Instructions ablauf: 
@@ -45,7 +45,6 @@
 - Diskussion über die Verwendung von Makefiles bei Servern zum Cleanen. 
 - Kurzbeschreibung und Analyse der für diese Repositories besonderen Entwicklungsmethodik. (bedeutet Lean Instructions, Architecture.md und Implementation-Plan.md)
 - Automatische Test-Generierung als Teil vom Instructions-file?
-- ~~GroupGame-App!~~ → concretized as **playbox** repo (see [catalog/playbox.md](catalog/playbox.md)): Imposter, Piccolo, "Wer wird Elite-Hater?" Quiz, Chess Variants
 - Abstammungsbaum Für die eigene Familie erzeugen und dann mit anderen merken wenn sie sie hochladen. 
 - In großen Abständen soll im Implementation Plan ein Chores/aufräumen/Optimierungsschritt eingefügt werden.
 - Gedanken sortieren-Repo + Video-Skripte-daraus-generieren-Repo + automatisch-Videos-rendern (Videos sind bloß eingeblendete Quellen)?
@@ -83,4 +82,5 @@
   - Zentrales Nutzermanagement mit Rollen und Berechtigungen
   - Verschlüsselung sensibler Daten / HTTPS
   - Regelmäßige Backups und Wiederherstellungstests
-
+- Umgesetzte Punkte aus dem Implementation-Plan sollten automatisch in einem Changelog oder so festgehalten werden. Ich denke, das wäre sinnvoller, als den Plan weiter damit zu befüllen. Vielleicht auch mit einem automatischen Commit?
+- n8n-prozedur zur automatisierung von bilateralen updates nach repos-änderungen (autoomatisch Änderungen ins meta repo eintragen, implementation plan bei kindrepos anpassen, wenn nötig, etc.)
